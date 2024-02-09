@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: hsl(0, 0%, 100%);
+  font-size: 14px;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+  font-family: "Inter", serif;
+}
+body main {
+  gap: 20px;
+  width: 100%;
+  height: 100svh;
+}
+body main .card_container {
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 10px;
+  width: 375px;
+  min-width: 250px;
+  padding: 40px;
+}
+body main .card_container p {
+  text-align: center;
+}
+body main .card_container img {
+  align-self: center;
+  border-radius: 50%;
+  width: 90px;
+}
+body main .card_container .user_name {
+  font-size: 1.7em;
+  font-weight: 600;
+  margin: 25px 0 10px 0;
+}
+body main .card_container .user_location {
+  color: hsl(75, 94%, 57%);
+  font-weight: 600;
+}
+body main .card_container .user_description {
+  font-weight: 400;
+  margin: 30px 0;
+}
+body main .card_container .social_links {
+  gap: 15px;
+  width: 100%;
+}
+body main .card_container .social_links .link_button {
+  width: 100%;
+  background-color: hsl(0, 0%, 20%);
+  text-align: center;
+  padding: 13px 0;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 700ms ease;
+}
+body main .card_container .social_links .link_button:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: hsl(0, 0%, 8%);
+}/*# sourceMappingURL=style.css.map */
